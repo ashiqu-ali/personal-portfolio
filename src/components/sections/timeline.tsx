@@ -3,37 +3,31 @@ import { Briefcase, GraduationCap } from "lucide-react";
 
 const experience = [
   {
-    title: "Senior Software Engineer",
-    company: "Tech Innovators Inc.",
-    date: "2020 - Present",
-    description: "Lead developer for the flagship mobile application, architecting new features and mentoring junior engineers. Improved app performance by 30%.",
-  },
-  {
-    title: "Software Engineer",
-    company: "Digital Solutions Co.",
-    date: "2018 - 2020",
-    description: "Developed and maintained full-stack web applications for enterprise clients. Specialized in creating responsive front-end interfaces with React.",
-  },
-  {
-    title: "Junior Developer",
-    company: "CodeCrafters LLC",
-    date: "2016 - 2018",
-    description: "Assisted in the development of various client websites and internal tools. Gained foundational experience in agile methodologies and version control.",
+    title: "Software Engineer - Flutter",
+    company: "Quadleo Techno Solutions",
+    date: "Sep 2020 - Present",
+    description: "Designed and developed Android, iOS, and Windows applications using Flutter with Flutter BLoC, incorporating push notifications and Google Maps integration. Successfully published mobile apps on both Google Play Store and Apple App Store",
   },
 ];
 
 const education = [
   {
-    title: "M.S. in Computer Science",
-    school: "University of Technology",
-    date: "2014 - 2016",
-    description: "Focused on artificial intelligence and machine learning. Thesis on natural language processing.",
+    title: "BTech Information Technology",
+    school: "University of Calicut",
+    date: "2024",
+    description: "Studied core IT fundamentals including Object-Oriented Programming, Data Structures & Algorithms, and software engineering principles. Gained exposure to current industry technologies and practical applications through community events and projects.",
   },
   {
-    title: "B.S. in Software Engineering",
-    school: "State University",
-    date: "2010 - 2014",
-    description: "Graduated with honors. President of the university's coding club.",
+    title: "Higher Secondary Education",
+    school: "Markaz HSS Karanthur, Kozhikode",
+    date: "2020",
+    description: "Completed a two-year higher secondary program, building a foundation and analytical skills. Served as a student union member, gaining experience in leadership and teamwork.",
+  },
+  {
+    title: "Secondary Education",
+    school: "mems International, Karanthur, Kozhikode",
+    date: "2018",
+    description: "Completed foundational secondary education with emphasis on core academic skills. Developed discipline and a strong work ethic during this period.",
   },
 ];
 
@@ -46,7 +40,7 @@ export function TimelineSection() {
           <div>
             <h3 className="text-2xl font-semibold font-headline flex items-center gap-3 mb-8">
               <Briefcase className="w-8 h-8 text-primary" />
-              Experience
+              Professional Experience
             </h3>
             <div className="relative flex flex-col gap-8">
               {experience.map((item, index) => (

@@ -7,10 +7,10 @@ export function HomeSection() {
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div className="space-y-4 text-center md:text-left fade-in-up">
           <h1 className="text-4xl md:text-6xl font-bold font-headline text-primary tracking-tighter">
-            Jane Doe
+            Ashiqu Ali
           </h1>
           <h2 className="text-2xl md:text-3xl font-semibold text-foreground">
-            Senior Software Engineer
+            Software Engineer
           </h2>
           <p className="text-muted-foreground max-w-lg mx-auto md:mx-0">
             Crafting elegant and efficient software solutions. Passionate about building beautiful user experiences and robust, scalable systems.
