@@ -28,7 +28,7 @@ export function HomeSection() {
           <div className="p-1.5 rounded-full bg-gradient-to-tr from-primary to-purple-300">
             <div className="bg-background rounded-full p-2">
               <Image
-                src="https://placehold.co/400x400.png"
+                src="/asset/profile.png"
                 alt="Profile Photo"
                 width={400}
                 height={400}

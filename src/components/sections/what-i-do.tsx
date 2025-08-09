@@ -6,17 +6,17 @@ export function WhatIDoSection() {
     {
       icon: <Smartphone className="w-10 h-10 text-primary" />,
       title: "Android Development",
-      description: "Building native Android applications with Kotlin and Jetpack Compose for a seamless user experience.",
+      description: "Building Android applications with Flutter, providing smooth performance and Material Design UI.",
     },
     {
       icon: <Tablet className="w-10 h-10 text-primary" />,
       title: "iOS Development",
-      description: "Creating elegant and performant iOS apps using Swift and SwiftUI, tailored to the Apple ecosystem.",
+      description: "Creating elegant and performant iOS apps using Flutter, designed for the Apple ecosystem.",
     },
     {
       icon: <Monitor className="w-10 h-10 text-primary" />,
-      title: "Web & Desktop",
-      description: "Developing responsive web applications and cross-platform desktop solutions to reach a wider audience.",
+      title: "Windows Application",
+      description: "Developing Windows desktop applications with Flutter, optimized for the Windows environment.",
     },
   ];
 
