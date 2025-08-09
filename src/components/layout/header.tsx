@@ -8,6 +8,7 @@ export function Header() {
     { href: "#about", label: "About" },
     { href: "#skills", label: "Skills" },
     { href: "#projects", label: "Projects" },
+    { href: "https://ashiqu-ali.medium.com", label: "Blogs" },
     { href: "#contact", label: "Contact" },
   ];
 
@@ -15,7 +16,7 @@ export function Header() {
     <header className="px-4 lg:px-6 h-16 flex items-center sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <a href="#home" className="flex items-center justify-center">
         <Mountain className="h-6 w-6 text-primary" />
-        <span className="sr-only">EtherealFolio</span>
+        <span className="sr-only">Ashiqu Ali</span>
       </a>
       <nav className="ml-auto hidden lg:flex gap-4 sm:gap-6">
         {navLinks.map((link) => (
@@ -39,7 +40,7 @@ export function Header() {
           <nav className="grid gap-6 text-lg font-medium mt-12">
             <a href="#home" className="flex items-center gap-2 text-lg font-semibold">
               <Mountain className="h-6 w-6 text-primary" />
-              <span className="sr-only">EtherealFolio</span>
+              <span className="sr-only">Ashiqu Ali</span>
             </a>
             {navLinks.map((link) => (
               <a

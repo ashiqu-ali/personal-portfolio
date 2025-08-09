@@ -4,22 +4,22 @@ import { Github, Linkedin, Mail, Phone, Send } from "lucide-react";
 export function ContactSection() {
   const socialLinks = [
     {
-      href: "mailto:jane.doe@example.com",
+      href: "mailto:connect.ashiqu@gmail.com",
       icon: <Mail className="w-6 h-6" />,
       label: "Email",
     },
     {
-      href: "tel:+1234567890",
+      href: "tel:+91-9188345675",
       icon: <Phone className="w-6 h-6" />,
       label: "Phone",
     },
     {
-      href: "#",
+      href: "https://www.linkedin.com/in/ashiqu-ali/",
       icon: <Linkedin className="w-6 h-6" />,
       label: "LinkedIn",
     },
     {
-      href: "#",
+      href: "https://github.com/ashiqu-ali",
       icon: <Github className="w-6 h-6" />,
       label: "GitHub",
     },
